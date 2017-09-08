@@ -1,0 +1,361 @@
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 27 2017 11:02:18 UTC
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-514.26.2.el7.x86_64
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.141-2.6.10.1.el7_3.x86_64/jre
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_141-mockbuild_2017_05_09_15_35-b00
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/share/tomcat
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/share/tomcat
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/cache/tomcat/temp
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 07, 2017 9:28:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 07, 2017 9:28:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:28:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:28:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 761 ms
+Sep 07, 2017 9:28:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 07, 2017 9:28:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Sep 07, 2017 9:28:31 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /var/lib/tomcat/webapps/guacamole.war
+Sep 07, 2017 9:28:33 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connection.ConnectionDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connection.ConnectionDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connectiongroup.ConnectionGroupDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connectiongroup.ConnectionGroupDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.sharingprofile.SharingProfileDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.sharingprofile.SharingProfileDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.user.UserDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:34 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.user.UserDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@7dd5b843]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:35 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.rest.user.UserResource.updateObject(java.lang.Object) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.apache.guacamole.rest.RESTExceptionWrapper@76560c4c]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:28:35 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.language.LanguageRESTService as a root resource class
+Sep 07, 2017 9:28:35 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.patch.PatchRESTService as a root resource class
+Sep 07, 2017 9:28:35 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.auth.TokenRESTService as a root resource class
+Sep 07, 2017 9:28:35 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.session.SessionRESTService as a root resource class
+Sep 07, 2017 9:28:35 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.codehaus.jackson.jaxrs.JacksonJsonProvider as a provider class
+Sep 07, 2017 9:28:35 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+Sep 07, 2017 9:28:35 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.codehaus.jackson.jaxrs.JacksonJsonProvider to GuiceManagedComponentProvider with the scope "Singleton"
+Sep 07, 2017 9:28:36 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.language.LanguageRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:28:36 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.patch.PatchRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:28:36 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.auth.TokenRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:28:36 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.session.SessionRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:28:36 PM org.webjars.servlet.WebjarsServlet init
+INFO: WebjarsServlet initialization completed
+Sep 07, 2017 9:28:36 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /var/lib/tomcat/webapps/guacamole.war has finished in 4,322 ms
+Sep 07, 2017 9:28:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:28:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:28:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:28:36 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4376 ms
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:37:11 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 07, 2017 9:37:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/guacamole] appears to have started a thread named [com.google.inject.internal.util.$Finalizer] but has failed to stop it. This is very likely to create a memory leak.
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:37:11 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 27 2017 11:02:18 UTC
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-514.26.2.el7.x86_64
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.141-2.6.10.1.el7_3.x86_64/jre
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_141-mockbuild_2017_05_09_15_35-b00
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/share/tomcat
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/share/tomcat
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/cache/tomcat/temp
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 07, 2017 9:56:34 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 07, 2017 9:56:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:56:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:56:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1188 ms
+Sep 07, 2017 9:56:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 07, 2017 9:56:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Sep 07, 2017 9:56:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /var/lib/tomcat/webapps/guacamole.war
+Sep 07, 2017 9:56:36 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connection.ConnectionDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connection.ConnectionDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connectiongroup.ConnectionGroupDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.connectiongroup.ConnectionGroupDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.sharingprofile.SharingProfileDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.sharingprofile.SharingProfileDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.user.UserDirectory.add(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:37 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.auth.jdbc.user.UserDirectory.update(org.apache.guacamole.net.auth.Identifiable) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.mybatis.guice.transactional.TransactionalMethodInterceptor@67402030]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:38 PM com.google.inject.internal.ProxyFactory <init>
+WARNING: Method [public void org.apache.guacamole.rest.user.UserResource.updateObject(java.lang.Object) throws org.apache.guacamole.GuacamoleException] is synthetic and is being intercepted by [org.apache.guacamole.rest.RESTExceptionWrapper@7f2f95e0]. This could indicate a bug.  The method may be intercepted twice, or may not be intercepted at all.
+Sep 07, 2017 9:56:38 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.language.LanguageRESTService as a root resource class
+Sep 07, 2017 9:56:38 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.patch.PatchRESTService as a root resource class
+Sep 07, 2017 9:56:38 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.auth.TokenRESTService as a root resource class
+Sep 07, 2017 9:56:38 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.guacamole.rest.session.SessionRESTService as a root resource class
+Sep 07, 2017 9:56:38 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.codehaus.jackson.jaxrs.JacksonJsonProvider as a provider class
+Sep 07, 2017 9:56:38 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+Sep 07, 2017 9:56:38 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.codehaus.jackson.jaxrs.JacksonJsonProvider to GuiceManagedComponentProvider with the scope "Singleton"
+Sep 07, 2017 9:56:39 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.language.LanguageRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:56:39 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.patch.PatchRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:56:39 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.auth.TokenRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:56:39 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.guacamole.rest.session.SessionRESTService to GuiceManagedComponentProvider with the scope "PerRequest"
+Sep 07, 2017 9:56:39 PM org.webjars.servlet.WebjarsServlet init
+INFO: WebjarsServlet initialization completed
+Sep 07, 2017 9:56:39 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /var/lib/tomcat/webapps/guacamole.war has finished in 4,781 ms
+Sep 07, 2017 9:56:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 07, 2017 9:56:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Sep 07, 2017 9:56:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 07, 2017 9:56:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4851 ms
+Sep 07, 2017 10:03:43 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular/1.3.16/angular.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/jquery/2.1.3/dist/jquery.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-route/1.3.16/angular-route.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/messageformat/1.0.2/messageformat.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-cookies/1.3.16/angular-cookies.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-touch/1.3.16/angular-touch.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/blob-polyfill/1.0.20150320/Blob.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-translate-loader-static-files/2.8.0/angular-translate-loader-static-files.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-translate/2.8.0/angular-translate.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/filesaver/1.3.3/FileSaver.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-translate-interpolation-messageformat/2.8.0/angular-translate-interpolation-messageformat.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/lodash/2.4.1/dist/lodash.min.js
+Sep 07, 2017 10:03:44 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-module-shim/0.0.4/angular-module-shim.js
+Sep 07, 2017 11:04:03 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/jquery/2.1.3/dist/jquery.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-route/1.3.16/angular-route.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-touch/1.3.16/angular-touch.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-translate/2.8.0/angular-translate.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/messageformat/1.0.2/messageformat.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-translate-interpolation-messageformat/2.8.0/angular-translate-interpolation-messageformat.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/blob-polyfill/1.0.20150320/Blob.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-translate-loader-static-files/2.8.0/angular-translate-loader-static-files.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/filesaver/1.3.3/FileSaver.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-module-shim/0.0.4/angular-module-shim.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular/1.3.16/angular.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/lodash/2.4.1/dist/lodash.min.js
+Sep 07, 2017 11:04:04 PM org.webjars.servlet.WebjarsServlet doGet
+INFO: Webjars resource requested: /META-INF/resources/webjars/angular-cookies/1.3.16/angular-cookies.min.js
+Sep 07, 2017 11:07:11 PM com.sun.jersey.spi.container.ContainerResponse logException
+SEVERE: Mapped exception to response: 500 (Internal Server Error)
+org.apache.guacamole.rest.APIException
+	at org.apache.guacamole.rest.RESTExceptionWrapper.invoke(RESTExceptionWrapper.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.dispatch(SubLocatorRule.java:190)
+	at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.invokeSubLocator(SubLocatorRule.java:183)
+	at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.accept(SubLocatorRule.java:110)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.accept(SubLocatorRule.java:137)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.accept(SubLocatorRule.java:137)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.accept(SubLocatorRule.java:137)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at com.google.inject.servlet.ServletDefinition.doService(ServletDefinition.java:263)
+	at com.google.inject.servlet.ServletDefinition.service(ServletDefinition.java:178)
+	at com.google.inject.servlet.ManagedServletPipeline.service(ManagedServletPipeline.java:91)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:62)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:118)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 07, 2017 11:22:04 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:992)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 07, 2017 11:22:04 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:992)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
